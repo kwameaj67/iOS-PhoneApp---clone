@@ -55,6 +55,26 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		983E574726FBE77800E2E31F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98F00B8426446F9500BB15EE /* RecentViewController.swift */,
+				98F00B902644735C00BB15EE /* KeypadViewController.swift */,
+				98F00B8126446F7E00BB15EE /* FavouriteViewController.swift */,
+				98F00B8726446FB600BB15EE /* ContactsViewController.swift */,
+				98F00B8A26446FC500BB15EE /* VoicemailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		983E574826FBE78F00E2E31F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				98F00B7D26446F1600BB15EE /* TabBarViewController.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		98F00B58264430DF00BB15EE = {
 			isa = PBXGroup;
 			children = (
@@ -74,18 +94,14 @@
 		98F00B63264430DF00BB15EE /* PhoneApp - clone */ = {
 			isa = PBXGroup;
 			children = (
+				983E574826FBE78F00E2E31F /* components */,
+				983E574726FBE77800E2E31F /* Controllers */,
 				983E574426FBD6EB00E2E31F /* Extensions */,
 				98F00B64264430DF00BB15EE /* AppDelegate.swift */,
 				98F00B66264430DF00BB15EE /* SceneDelegate.swift */,
 				98F00B6D264430E400BB15EE /* Assets.xcassets */,
 				98F00B6F264430E400BB15EE /* LaunchScreen.storyboard */,
 				98F00B72264430E400BB15EE /* Info.plist */,
-				98F00B7D26446F1600BB15EE /* TabBarViewController.swift */,
-				98F00B8426446F9500BB15EE /* RecentViewController.swift */,
-				98F00B902644735C00BB15EE /* KeypadViewController.swift */,
-				98F00B8126446F7E00BB15EE /* FavouriteViewController.swift */,
-				98F00B8726446FB600BB15EE /* ContactsViewController.swift */,
-				98F00B8A26446FC500BB15EE /* VoicemailViewController.swift */,
 			);
 			path = "PhoneApp - clone";
 			sourceTree = "<group>";

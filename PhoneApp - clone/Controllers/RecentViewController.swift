@@ -18,11 +18,6 @@ class RecentViewController: UIViewController {
         segmentedControl.addTarget(self, action: #selector(onTapControl(_:)), for: .valueChanged)
         segmentedControl.setWidth(80, forSegmentAt: 0)
         segmentedControl.setWidth(80, forSegmentAt: 1)
-
-        
-        
-       
-        
         return segmentedControl
     }()
     override func viewDidLoad() {
