@@ -8,7 +8,7 @@
 import UIKit
 
 class RecentViewController: UIViewController {
-    var segmentedControl : UISegmentedControl = {
+    let segmentedControl : UISegmentedControl = {
         let titles = ["All","Missed"]
        let segmentedControl = UISegmentedControl(items: titles)
         segmentedControl.backgroundColor = .systemGray6
